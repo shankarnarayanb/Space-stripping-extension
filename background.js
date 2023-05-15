@@ -1,10 +1,7 @@
-chrome.action.onClicked.addListener((tab) => {
-  chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    files: ['scripts/content.js']
-  }, () => {
-    chrome.tabs.sendMessage(tab.id, {command: "stripSpaces"}, (response) => {
-      chrome.action.setBadgeText({text: response.count.toString(), tabId: tab.id});
+browser.browserAction.onClicked.addListener((tab) => {
+  browser.tabs.executeScript(tab.id, { file: 'scripts/content.js' }).then(() => {
+    browser.tabs.sendMessage(tab.id, { command: "stripSpaces" }).then(response => {
+      browser.browserAction.setBadgeText({ text: response.count.toString(), tabId: tab.id });
     });
   });
 });

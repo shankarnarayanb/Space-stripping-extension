@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Space Stripping Extension",
   "version": "1.0",
   "description": "Strips leading and trailing spaces from text boxes",
@@ -10,14 +10,21 @@
     "48": "images/favicon-48x48.png",
     "128": "images/favicon-128x128.png"
   },
-  "permissions": ["activeTab", "scripting"],
 
-  "action": {
+  "permissions": ["activeTab", "tabs"],
+
+  "browser_action": {
     "default_title": "Strip Spaces"
-
   },
+
   "background": {
-    "service_worker": "background.js"
-  }
- 
+    "scripts": ["background.js"]
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["scripts/content.js"]
+    }
+  ]
 }
