@@ -1,20 +1,20 @@
 # Space Stripping Extension
 
-This is a Google Chrome extension that removes leading and trailing spaces from all text input fields(apart from password fields) on the current webpage. The extension will display the number of replacements made on its icon in the toolbar.
+This is a Firefox extension that removes leading and trailing spaces from all text input fields(apart from password fields) on the current webpage. The extension will display the number of replacements made on its icon in the toolbar.
 
 ## Installation
 
 1. Download the source code from this repository and unzip the files.
 
-2. Open Google Chrome, go to `chrome://extensions`.
+2. Open Firefox and navigate to `about:debugging`.
 
-3. Turn on the `Developer mode` switch in the top right corner.
+3. Click on "This Firefox" (on the left side of the screen).
 
-4. Click on `Load unpacked`.
+4. Click on "Load Temporary Add-on…".
 
-5. Navigate to the unzipped extension files and select the entire folder.
+5. Navigate to your extension's directory, find the manifest.json file and open it.
 
-The extension should now be installed and you should see its icon appear in the toolbar.
+The extension will now be temporarily installed in Firefox, and you should see it listed under "Temporary Extensions".
 
 ## Usage
 
