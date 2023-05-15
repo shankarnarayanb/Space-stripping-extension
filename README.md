@@ -20,7 +20,7 @@ The extension should now be installed and you should see its icon appear in the 
 
 Usage:
 
-1. Web Surfing, Bhai Sahab(My Brother): You're surfing the interwebs and stumble upon a webpage brimming with text input fields. Maybe it's a form, maybe it's a online form, or the web equivalent of Mount Everest: The dreaded Jenkins Nodes and Clouds page. This beast is sprawling with text input fields, each one begging for your attention. It's a veritable jungle of AWS MI ID's , instance types, and whatnot.
+1. Web Surfing, Bhai Sahab(My Brother): You're surfing the interwebs and stumble upon a webpage brimming with text input fields. Maybe it's a form, maybe it's a online form, or the web equivalent of Mount Everest: The dreaded Jenkins Nodes and Clouds page. This beast is sprawling with text input fields, each one begging for your attention. It's a veritable jungle of AWS AMI ID's , instance types, and whatnot.
 
 2. Oops, Thoda Extra Ho Gaya(I've added a bit too much) : In the heat of the moment,  like a little extra spicy masla to the biryani, you find that you've unintentionally added leading and/or trailing spaces to one of the text fields.
 
