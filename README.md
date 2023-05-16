@@ -1,4 +1,4 @@
-# Space Stripping Extension
+# Space Remover: Text Field Trimmer
 
 This is a Google Chrome extension that removes leading and trailing spaces from all text input fields(apart from password fields) on the current webpage. The extension will display the number of replacements made on its icon in the toolbar.
 
