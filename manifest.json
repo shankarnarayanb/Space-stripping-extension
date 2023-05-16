@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Space Stripping Extension",
+  "name": "Space Remover: Text Field Trimmer",
   "version": "1.0",
   "description": "Strips leading and trailing spaces from text boxes",
 
