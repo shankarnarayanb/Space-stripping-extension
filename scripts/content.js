@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener(
   (request, sender, sendResponse) => {
     if (request.command == "stripSpaces") {
-      let inputs = document.querySelectorAll('input[type=text]');
+      let inputs = document.querySelectorAll('input[type=text], textarea');
       let count = 0;
       inputs.forEach(input => {
         let existingValue = input.value;
