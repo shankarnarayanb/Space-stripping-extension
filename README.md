@@ -27,7 +27,7 @@ The extension should now be installed and you should see its icon appear in the 
 4. **Aur Lo! Kamaal Ho Gaya(Voila):** In a jiffy, the extension swings into action, removing all leading and trailing spaces from your text fields (password fields are a no-go area, bhai - it's like the secret recipe to your mom's panner butter masala). 
 
 
-***Aur sone pe suhaga (The cheery on top)***
+***Aur sone pe suhaga (The cherry on top)***
 
 The extension will also keep a tally of its victories, displaying the number of replacements made right on its icon in the toolbar. Now, you're back in the driver's seat, ready to tackle Jenkins without fear of your agents breaking down. Jenkins may not warn you about those sneaky spaces, but with the Space Stripping Extension, you've got your own personal space guardian!
 
